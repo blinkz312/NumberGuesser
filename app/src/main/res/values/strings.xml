@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NumberGuesser</string>
+    <string name="title">Guess the Number</string>
+    <string name="question">I am thinking of a number between 1 to 10. Can you guess it?</string>
+    <string name="number">Enter a number</string>
+    <string name="guess">Guess</string>
+</resources>
