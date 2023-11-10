@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/cornflowerBlue">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -18,20 +19,22 @@
 
         <TextView
             android:id="@+id/textView"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/title"
             android:textAlignment="center"
-            android:textSize="35sp" />
+            android:textSize="38sp" />
 
         <TextView
             android:id="@+id/textView2"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/question"
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/answer"
@@ -40,9 +43,10 @@
             android:layout_margin="10dp"
             android:autofillHints=""
             android:ems="10"
+            android:textSize="22sp"
             android:hint="@string/number"
             android:inputType="number"
-            android:textColorHint="#8D6E63" />
+            android:textColorHint="@color/black" />
 
         <TextView
             android:id="@+id/result"
@@ -50,15 +54,17 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:hint="@string/result"
-            android:textColorHint="#8D6E63"
-            android:textSize="18sp" />
+            android:textColorHint="@color/black"
+            android:textSize="22sp" />
 
         <Button
             android:id="@+id/guessBtn"
+            android:textSize="25sp"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
+            android:backgroundTint="@color/maroon"
             android:text="@string/guess" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
