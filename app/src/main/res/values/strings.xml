@@ -4,4 +4,5 @@
     <string name="question">I am thinking of a number between 1 to 10. Can you guess it?</string>
     <string name="number">Enter a number</string>
     <string name="guess">Guess</string>
+    <string name="result">The result is: </string>
 </resources>

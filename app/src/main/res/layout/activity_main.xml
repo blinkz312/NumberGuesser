@@ -13,7 +13,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck">
 
         <TextView
             android:id="@+id/textView"
@@ -22,7 +23,7 @@
             android:layout_margin="10dp"
             android:text="@string/title"
             android:textAlignment="center"
-            android:textSize="35sp"/>
+            android:textSize="35sp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -37,10 +38,20 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_margin="10dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/number"
             android:inputType="number"
-            android:autofillHints="" />
+            android:textColorHint="#8D6E63" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/result"
+            android:textColorHint="#8D6E63"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/guessBtn"
